@@ -1,0 +1,192 @@
+/* PAGE */
+.details-container {
+  padding: 30px 40px;
+  background: #F5F7FA;
+  min-height: 100vh;
+}
+
+/* BACK LINK */
+.details-back {
+  font-size: 14px;
+  color: #2563eb;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* MAIN CARD */
+.details-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 30px 40px;
+  margin-bottom: 25px;
+}
+
+/* STATUS BADGE */
+.details-badge {
+  display: inline-block;
+  background: #d1fae5;
+  color: #065f46;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+/* FLEX LAYOUT */
+.details-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px; /* 🔥 spacing between left & right */
+}
+
+/* LEFT SECTION */
+.details-left {
+  flex: 1;
+}
+
+.details-left h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* RIGHT SECTION */
+.details-right {
+  flex: 1;
+}
+
+.details-right h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* INFO ROWS */
+.details-left div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #374151;
+}
+
+/* AMENITIES WRAP */
+.details-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* TAG STYLE */
+.details-tags span {
+  background: #f3f4f6;
+  color: #374151;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+/* BUTTON ALIGN RIGHT */
+.details-btn-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+/* BUTTON */
+.details-btn {
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.details-btn:hover {
+  background: #1d4ed8;
+}
+
+/* SCHEDULE CARD */
+.details-schedule {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 25px 30px;
+}
+
+/* TITLE */
+.details-schedule h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* EMPTY TEXT */
+.details-schedule div {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* 🔥 HEADER CONTAINER */
+.room-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: #ffffff;
+}
+
+/* LEFT SIDE */
+.room-header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ROOM NAME */
+.room-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* SUBTEXT */
+.room-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+/* RIGHT SIDE */
+.room-header-right {
+  display: flex;
+  align-items: center;
+}
+
+/* PROFILE CIRCLE */
+.profile-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #2563eb;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.slot.booked {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-bottom: 6px;
+}

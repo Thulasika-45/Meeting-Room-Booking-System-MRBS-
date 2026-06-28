@@ -1,0 +1,231 @@
+.admin-approval-container {
+  padding: 25px 40px;
+  background: #f5f7fa;
+}
+
+/* ALERT */
+.approval-alert {
+  background: #fef3c7;
+  border: 1px solid #facc15;
+  padding: 14px 18px;
+  border-radius: 8px;
+  color: #92400e;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* CARD */
+.approval-card {
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+}
+
+/* TABS */
+.approval-tabs {
+  display: flex;
+  gap: 10px;
+  padding: 16px;
+}
+
+.approval-tabs button {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: #f3f4f6;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.approval-tabs button.active {
+  background: #2563eb;
+  color: white;
+}
+
+/* TABLE */
+.approval-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* HEADER */
+.approval-table thead {
+  background: #f9fafb;
+}
+
+.approval-table th {
+  text-align: left;
+  padding: 14px;
+  font-size: 12px;
+  color: #6b7280;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* ROW */
+.approval-table td {
+  padding: 14px;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 14px;
+}
+
+/* HOVER */
+.approval-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+/* EMP ID */
+.emp-id {
+  color: #6b7280;
+}
+
+/* STATUS BADGES */
+.status {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+/* COLORS */
+.status.pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status.approved {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status.rejected {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* BUTTONS */
+.approve-btn {
+  background: #10b981;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.reject-btn {
+  background: white;
+  color: #dc2626;
+  border: 1px solid #dc2626;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* HOVER */
+.approve-btn:hover {
+  background: #059669;
+}
+
+.reject-btn:hover {
+  background: #fee2e2;
+}
+
+/* HEADER */
+.admin-top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 30px;
+  background: #fff;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+/* TITLE */
+.admin-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* SUBTITLE */
+.admin-subtitle {
+  font-size: 14px;
+  color: #6B7280;
+  margin-top: 4px;
+}
+
+/* RIGHT SIDE */
+.admin-header-right {
+  position: relative;
+}
+
+/* PROFILE CIRCLE */
+.profile-circle {
+  width: 40px;
+  height: 40px;
+  background: #2563EB;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* DROPDOWN */
+.profile-dropdown {
+  position: absolute;
+  right: 0;
+  top: 55px;
+  width: 260px;
+  background: #fff;
+  border: 1px solid #E5E7EB;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  padding: 15px;
+  z-index: 100;
+}
+
+/* PROFILE INFO */
+.profile-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.profile-email {
+  font-size: 12px;
+  color: #6B7280;
+  margin-top: 3px;
+}
+
+.profile-role {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 11px;
+  background: #FEF3C7;
+  color: #92400E;
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+/* DIVIDER */
+.profile-divider {
+  height: 1px;
+  background: #E5E7EB;
+  margin: 10px 0;
+}
+
+/* LOGOUT */
+.profile-logout {
+  font-size: 14px;
+  color: #DC2626;
+  cursor: pointer;
+}
+
+.profile-logout:hover {
+  text-decoration: underline;
+}

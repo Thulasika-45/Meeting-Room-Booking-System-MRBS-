@@ -1,0 +1,270 @@
+/* PAGE */
+.admin-rooms-container {
+  padding: 25px 30px;
+  background: #F5F7FA;
+}
+
+/* SEARCH BAR */
+.rooms-search {
+  background: #ffffff;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #E5E7EB;
+  margin-bottom: 16px;
+}
+
+.rooms-search input {
+  width: 100%;
+  height: 42px;
+  border-radius: 8px;
+  border: 1px solid #E5E7EB;
+  padding: 0 14px;
+  font-size: 14px;
+  outline: none;
+}
+
+.rooms-search input:focus {
+  border: 1px solid #2563EB;
+}
+
+/* COUNT */
+.rooms-count {
+  font-size: 14px;
+  color: #6B7280;
+  margin-bottom: 14px;
+}
+
+/* LIST */
+.rooms-list {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #E5E7EB;
+  overflow: hidden;
+}
+
+/* CARD */
+.room-card-admin {
+  padding: 18px 20px;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+/* HEADER */
+.room-header-admin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.room-title-admin {
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* BADGE */
+.status-badge-admin {
+  background: #D1FAE5;
+  color: #065F46;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+/* ACTIONS */
+.room-actions-admin {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn-admin {
+  background: white;
+  border: 1px solid #D1D5DB;
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.deactivate-btn-admin {
+  background: #F3F4F6;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* DETAILS */
+.room-details-admin {
+  display: flex;
+  gap: 120px;
+  margin-bottom: 10px;
+}
+
+.room-details-admin div {
+  display: flex;
+  flex-direction: column;
+}
+
+.room-details-admin span {
+  font-size: 12px;
+  color: #6B7280;
+}
+
+.room-details-admin b {
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+/* AMENITIES */
+.room-amenities-admin .label {
+  font-size: 12px;
+  color: #6B7280;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.tags span {
+  background: #F3F4F6;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+/* 🔥 HEADER (FIGMA EXACT STYLE) */
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: #ffffff;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+/* LEFT */
+.admin-header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.admin-subtitle {
+  font-size: 14px;
+  color: #6B7280;
+  margin-top: 4px;
+}
+
+/* RIGHT */
+.admin-header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* BUTTON (FIGMA STYLE) */
+.add-room-btn {
+  background: #2563EB;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.add-room-btn:hover {
+  background: #1D4ED8;
+}
+
+/* AVATAR */
+.admin-avatar {
+  width: 40px;
+  height: 40px;
+  background: #2563EB;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.profile-circle {
+  width: 40px;
+  height: 40px;
+  background: #2563EB;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.admin-header-right {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.profile-dropdown {
+  position: absolute;
+  right: 0;
+  top: 55px;
+  width: 260px;
+  background: #fff;
+  border: 1px solid #E5E7EB;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  padding: 15px;
+  z-index: 100;
+}
+
+.profile-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.profile-email {
+  font-size: 12px;
+  color: #6B7280;
+}
+
+.profile-role {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 11px;
+  background: #FEF3C7;
+  color: #92400E;
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+.profile-divider {
+  height: 1px;
+  background: #E5E7EB;
+  margin: 10px 0;
+}
+
+.profile-logout {
+  font-size: 14px;
+  color: #DC2626;
+  cursor: pointer;
+}

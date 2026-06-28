@@ -1,0 +1,247 @@
+/* PAGE BACKGROUND */
+.admin-bookings-container {
+  padding: 24px 30px;
+  background: #F5F7FA;
+}
+
+.admin-filters {
+  display: flex;
+  gap: 16px;
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #E5E7EB;
+  margin-bottom: 16px;
+}
+
+/* MAKE ALL FIELDS EQUAL WIDTH */
+.admin-filters input,
+.admin-filters select {
+  flex: 1;              /* 🔥 KEY LINE */
+  height: 42px;
+  border-radius: 8px;
+  border: 1px solid #E5E7EB;
+  padding: 0 14px;
+  font-size: 14px;
+  color: #374151;
+  outline: none;
+}
+
+/* REMOVE OLD FIXED WIDTHS */
+.admin-filters input {
+  width: auto;
+}
+
+.admin-filters select {
+  width: auto;
+}
+/* FOCUS STATE (blue border like figma) */
+.admin-filters input:focus,
+.admin-filters select:focus {
+  border: 1px solid #2563EB;
+}
+
+/* COUNT TEXT */
+.booking-count {
+  font-size: 14px;
+  color: #6B7280;
+  margin-bottom: 12px;
+}
+
+/* TABLE WRAPPER */
+.table-container {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #E5E7EB;
+  overflow: hidden;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* HEADER */
+thead {
+  background: #F9FAFB;
+}
+
+th {
+  text-align: left;
+  padding: 14px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #6B7280;
+  letter-spacing: 0.5px;
+}
+
+/* ROW */
+td {
+  padding: 16px;
+  font-size: 14px;
+  color: #111827;
+  border-top: 1px solid #E5E7EB;
+  vertical-align: middle;
+}
+
+/* HOVER ROW */
+tbody tr:hover {
+  background: #F9FAFB;
+}
+
+/* EMAIL */
+.email {
+  font-size: 12px;
+  color: #6B7280;
+  margin-top: 2px;
+}
+
+/* STATUS BASE */
+.status {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* STATUS COLORS (MATCH FIGMA EXACTLY) */
+.status.confirmed {
+  background: #D1FAE5;
+  color: #065F46;
+}
+
+.status.pending {
+  background: #FEF3C7;
+  color: #92400E;
+}
+
+.status.rejected {
+  background: #FEE2E2;
+  color: #991B1B;
+}
+
+.status.cancelled {
+  background: #E5E7EB;
+  color: #374151;
+}
+
+/* ALIGNMENT FIXES */
+td:nth-child(1) {
+  width: 100px;
+}
+
+td:nth-child(2) {
+  font-weight: 500;
+}
+
+td:nth-child(6) {
+  text-align: center;
+}
+
+td:nth-child(7) {
+  text-align: center;
+}
+
+/* HEADER */
+.admin-top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 30px;
+  background: #fff;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+/* LEFT */
+.admin-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.admin-subtitle {
+  font-size: 14px;
+  color: #6B7280;
+  margin-top: 4px;
+}
+
+/* RIGHT */
+.admin-header-right {
+  position: relative;
+}
+
+/* PROFILE CIRCLE */
+.profile-circle {
+  width: 40px;
+  height: 40px;
+  background: #2563EB;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* DROPDOWN */
+.profile-dropdown {
+  position: absolute;
+  right: 0;
+  top: 55px;
+  width: 260px;
+  background: #fff;
+  border: 1px solid #E5E7EB;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  padding: 15px;
+  z-index: 100;
+}
+
+/* INFO */
+.profile-info {
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.profile-email {
+  font-size: 12px;
+  color: #6B7280;
+  margin-top: 3px;
+}
+
+.profile-role {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 11px;
+  background: #FEF3C7;
+  color: #92400E;
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+/* DIVIDER */
+.profile-divider {
+  height: 1px;
+  background: #E5E7EB;
+  margin: 10px 0;
+}
+
+/* LOGOUT */
+.profile-logout {
+  font-size: 14px;
+  color: #DC2626;
+  cursor: pointer;
+}
+
+.profile-logout:hover {
+  text-decoration: underline;
+}

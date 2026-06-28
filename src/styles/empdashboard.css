@@ -1,0 +1,313 @@
+/* WRAPPER */
+.dashboard-wrapper {
+  background: #F5F7FA;
+}
+
+/* HEADER */
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 30px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.welcome-text {
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.user-details {
+  text-align: right;
+}
+
+.user-name {
+  font-weight: 600;
+}
+
+.user-email {
+  font-size: 12px;
+  color: gray;
+}
+
+/* MAIN */
+.dashboard-container {
+  padding: 30px;
+}
+
+/* TITLE */
+.dashboardHead {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.dashboardSub {
+  color: gray;
+  margin-top: 5px;
+}
+
+/* 🔥 STATS */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+} 
+
+.stat-card {
+  width: 335px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.stat-card:hover {
+  border-color: #2563eb;
+}
+
+.stat-title {
+  font-size: 14px;
+  color: gray;
+}
+
+.stat-number {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.stat-icon {
+  width: 45px;
+  height: 45px;
+  background: #f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.stat-icon.orange {
+  background: #fff7ed;
+}
+
+/* FILTER */
+.filter-section {
+  margin-top: 20px;
+  position: relative;
+}
+
+/* FILTER BUTTON */
+.filter-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+
+  padding: 10px 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: white;
+
+  width: 220px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* ARROW ANIMATION */
+.arrow {
+  font-size: 12px;
+  transition: transform 0.2s;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+/* DROPDOWN */
+.filter-dropdown {
+  position: absolute;
+  margin-top: 8px;
+
+  width: 240px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+
+  padding: 15px;
+
+  /* 🔥 FIGMA SHADOW */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+  z-index: 10;
+}
+
+/* TITLE */
+.filter-title {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+/* OPTIONS COLUMN */
+.filter-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* EACH ITEM */
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* CHECKBOX STYLE (CLEAN LOOK) */
+.filter-item input {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+/* POPULAR */
+.populardash {
+  margin-top: 30px;
+}
+
+.popularview {
+  display: flex;
+  justify-content: space-between;
+}
+
+.populartext {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* ONLY ROOM RELATED UPDATED */
+
+.rooms-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.room-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 18px;
+  cursor: pointer;
+  transition: 0.2s;
+  gap: 3px;
+}
+
+.room-card:hover {
+  border-color: #2563eb;
+}
+
+.room-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.room-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.badge {
+  background: #d1fae5;
+  color: #065f46;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.room-info {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #6b7280;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.room-meta {
+  display: flex;
+  align-items: center;
+}
+
+.room-tags {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.room-tags span {
+  background: #f3f4f6;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.time-slots {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.time-slots span {
+  background: #d1fae5;
+  color: #065f46;
+  padding: 4px 6px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.book-btn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.logout-text {
+  font-size: 14px;
+  color: #374151; /* subtle dark gray */
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.logout-text:hover {
+  color: #2563eb; /* blue hover like modern UI */
+}
+
+.header-right {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
